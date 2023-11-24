@@ -1,0 +1,269 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,#84d9d269,#012e2779);
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    font-family: Jost;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 0.53rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin: 0;
+}
+
+.header h1 {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.8rem;
+}
+
+.header .coinarea {
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 0.50rem 0.80rem;
+    border-radius: 999px;
+    align-items: center;
+    display: flex;
+}
+
+.coinarea span {
+    font-size: 0.91rem;
+    margin-left: 0.40rem;
+}
+
+.coinarea svg {
+    fill: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.boxarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+    width: 100%;
+}
+
+.kitarea {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 0.53rem;
+    width: 50%;
+    position: relative;
+    padding: 1rem 1rem;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.178);
+    min-height: 20rem;
+}
+
+.kitarea p {
+    z-index: 10;
+    color: white;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+.kitbacks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.kitarea img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+}
+
+.diamodarea img {
+    width: 25rem;
+} 
+
+.starterarea img {
+    width: 27rem;
+}
+
+.godarea img {
+    width: 27rem;
+}
+
+.kittitle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kittitle button {
+    padding: 0.55rem 2.5rem;
+    outline: none;
+    border: 3px solid #4ffdc677;
+    border-radius: 999px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.281);
+    font-size: 0.8rem;
+    transition: 0.2s;
+    z-index: 10;
+}
+
+.kittitle button:hover {
+    background-color: #8cffdb7a;
+    transform: scale(1.1);
+}
+
+.starterarea label {
+    color: #bfffeb;
+}
+.starterarea h3 {
+    color: #35ecb2;
+}
+
+.diamodarea label {
+    color: #dddcab;
+}
+
+.diamodarea h3 {
+    color: #bfc494;
+}
+
+.godarea label {
+    color: #f7b3b3;
+}
+
+.godarea h3 {
+    color: #936d6c;
+}
+
+.kitarea h3 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    background: none;
+    z-index: 999;
+    display: inline-block;
+}
+
+.kitarea label {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    background: none;
+}
+
+.starterback {
+    color: #a8ffe4;
+    background: rgb(44,200,151);
+    background: linear-gradient(270deg, rgba(44, 200, 151, 0.507) 62%, rgba(164, 238, 142, 0.048) 93%);
+}
+
+.pricearea {
+    position: absolute ;
+    padding: 0.40rem 1.2rem;
+    outline: none;
+    border-radius: 999px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.281);
+    bottom: 2rem;
+}
+
+.pricearea span {
+    font-size: 0.8rem;
+}
+
+
+.diamondback {
+    color: rgb(9, 224, 224);
+    background: rgb(255,248,65);
+    background: linear-gradient(270deg, rgba(255, 249, 65, 0.39) 62%, rgba(165,238,142,0) 93%);
+}
+
+.godback {
+    color: rgb(9, 224, 224);
+    background: rgb(235,43,43);
+    background: linear-gradient(270deg, rgba(235, 43, 43, 0.363) 62%, rgba(165,238,142,0) 93%);
+}
+
+.endbox {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 0.53rem;
+    width: 100%;
+    position: relative;
+    padding: 1rem 1rem;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.178);
+    min-height: 20rem;
+}
+
+.endbox img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+.endbox h3 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    background: none;
+    z-index: 999;
+    display: inline-block;
+}
+
+.endbox label {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    background: none;
+}
+
+.endbox p {
+    z-index: 10;
+    color: white;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(/font/Jost-SemiBold.ttf);
+}
